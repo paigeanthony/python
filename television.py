@@ -89,6 +89,5 @@ class Television:
         '''
         Returns string representing the status of the television.
         '''
-        current_volume = self.__volume if not self.__muted else Television.MIN_VOLUME
-        return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {current_volume}'
+        return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
 
