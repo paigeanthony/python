@@ -90,4 +90,3 @@ class Television:
         Returns string representing the status of the television.
         '''
         return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
-
